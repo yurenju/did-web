@@ -11,14 +11,15 @@
       "type": "EcdsaSecp256k1VerificationKey2019",
       "controller": "did:web:yurenju.github.io:did-web",
       "publicKeyHex": "0436a574bc0a7ae463c965a5eca14e2ccf19a1104185288366caf7caa1386926377df8aa6416575ae5201adc5ab0c044cd25cc1725b503559b54775608d7cee476"
+    },
+    {
+      "id": "did:web:yurenju.github.io:did-web#semaphore",
+      "type": "Semapphore2023",
+      "controller": "did:web:yurenju.github.io:did-web"
     }
   ],
-  "authentication": [
-    "did:web:yurenju.github.io:did-web#0436a574bc0a7ae463c965a5eca14e2ccf19a1104185288366caf7caa1386926377df8aa6416575ae5201adc5ab0c044cd25cc1725b503559b54775608d7cee476"
-  ],
-  "assertionMethod": [
-    "did:web:yurenju.github.io:did-web#0436a574bc0a7ae463c965a5eca14e2ccf19a1104185288366caf7caa1386926377df8aa6416575ae5201adc5ab0c044cd25cc1725b503559b54775608d7cee476"
-  ],
+  "authentication": ["did:web:yurenju.github.io:did-web#semaphore"],
+  "assertionMethod": ["did:web:yurenju.github.io:did-web#semaphore"],
   "keyAgreement": [],
   "service": []
 }
