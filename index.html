@@ -6,6 +6,17 @@
     <title>Document</title>
   </head>
   <body>
-    did:web:yurenju.github.io:did-web
+    <pre id="did-document"></pre>
+    <script>
+      fetch("did.json")
+        .then((res) => res.json())
+        .then((json) => {
+          document.getElementById("did-document").innerText = JSON.stringify(
+            json,
+            null,
+            2
+          );
+        });
+    </script>
   </body>
 </html>
