@@ -14,7 +14,7 @@
     },
     {
       "id": "did:web:yurenju.github.io:did-web#semaphore",
-      "type": "Semapphore2023",
+      "type": "Semaphore2023",
       "controller": "did:web:yurenju.github.io:did-web"
     }
   ],
