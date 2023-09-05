@@ -1,0 +1,2 @@
+curl -o did-output.json -H "Host: yurenju.github.io" http://localhost:3332/did-web/did.json
+
