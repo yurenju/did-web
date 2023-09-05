@@ -16,7 +16,7 @@
       "id": "did:web:yurenju.github.io:did-web#semaphore",
       "type": "SemaphoreType2023",
       "controller": "did:web:yurenju.github.io:did-web",
-      "publicKeyHex": "18247677939749764709615722514754949329375911953462583983649646599131197861128"
+      "publicKeyHex": "00000000000000"
     }
   ],
   "authentication": ["did:web:yurenju.github.io:did-web#semaphore"],
